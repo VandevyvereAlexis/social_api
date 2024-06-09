@@ -24,7 +24,7 @@
             "Database\\Seeders\\": "database/seeders/"
         },
         "files": [
-            "app/Hepers/UploadImage.php"
+            "app/Helpers/UploadImage.php"
         ]
     },
     "autoload-dev": {
@@ -32,7 +32,7 @@
             "Tests\\": "tests/"
         },
         "files": [
-            "app/Hepers/UploadImage.php"
+            "app/Helpers/UploadImage.php"
         ]
     },
     "scripts": {

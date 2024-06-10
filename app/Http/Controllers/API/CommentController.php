@@ -11,6 +11,7 @@ use Illuminate\Support\Facades\File;
 
 class CommentController extends Controller
 {
+    // "except(')" -> pas besoin d'être connecté pour ..
     public function __construct()
     {
         $this->middleware('auth:sanctum')->except('show');

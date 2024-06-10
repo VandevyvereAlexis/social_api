@@ -12,6 +12,7 @@ use Illuminate\Support\Facades\File;
 
 class PostController extends Controller
 {
+    // "except(')" -> pas besoin d'être connecté pour ..
     public function __construct()
     {
         $this->middleware('auth:sanctum')->except('index', 'show');

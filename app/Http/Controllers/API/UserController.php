@@ -12,6 +12,7 @@ use Illuminate\Support\Facades\Hash;
 
 class UserController extends Controller
 {
+    // "except(')" -> pas besoin d'être connecté pour ..
     public function __construct()
     {
         $this->middleware('auth:sanctum')->except('store');
